@@ -1,0 +1,4 @@
+segment,n_series,primary_metric,method,baseline,reason,method_wape,method_bias,method_rmsse,baseline_wape,baseline_bias,baseline_rmsse
+regular,36,wape,ses_seasonal,snaive,ses_seasonal лучше baseline на 8.5% по wape,0.1389031644,-0.01477243058,0.9878380904,0.1517302145,-0.06187056451,1.079467233
+intermittent,6,rmsse,croston_sba,snaive,croston_sba лучше baseline на 36.7% по rmsse,1.474437712,0.03186686015,0.7962355094,1.725311067,0.4715109145,1.257557643
+short,3,wape,naive,naive,baseline не побит,0.1546391368,-0.01599649522,1.373009569,0.1546391368,-0.01599649522,1.373009569
